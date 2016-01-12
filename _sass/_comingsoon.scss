@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#coming-soon {
+  text-align: center;
+
+  .logo {
+    max-width: 250px;
+  }
+
+  h1 {
+    font-family: "Roboto";
+    text-shadow: $text-shadow;
+  }
+  .profile-picture img {
+    border-radius: 50%;
+    margin-bottom: 1em;
+  }
+}
